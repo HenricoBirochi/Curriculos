@@ -1,0 +1,34 @@
+﻿@model List<CurriculoViewModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section EstilosExtras {
+    <link href="/css/Index.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet"><!--fonte Tektur-->
+}
+<div class="mainn">
+    <h2>Listagem de Curriculos</h2>
+    @foreach (CurriculoViewModel curriculo in @Model)
+    {
+        <div class="ItensCurriculo">
+            <ul>
+                <li><span class="item">Curriculo </span> @curriculo.CurriculoId</li>
+                <li><span class="item">Nome </span> @curriculo.Nome</li>
+                <li><span class="item">CPF </span> @curriculo.CPF</li>
+            </ul>
+            <form asp-action="Get" method="get" class="interno">
+                <input type="hidden" name="curriculoId" value="@curriculo.CurriculoId" />
+                <button class="botoes" type="submit">Exibir o currículo formatado</button>
+            </form>
+            <form asp-action="GetPut" method="get" class="interno">
+                <input type="hidden" name="curriculoId" value="@curriculo.CurriculoId" />
+                <button class="botoes" type="submit">Alterar curriculo</button>
+            </form>
+            <form asp-action="Delete" method="post" class="interno" onsubmit="return confirm('Tem certeza que deseja excluir este currículo?');">
+                <input type="hidden" name="curriculoId" value="@curriculo.CurriculoId" />
+                <button class="botoes" type="submit">Excluir curriculo </button>
+            </form>
+        </div>
+    }
+    <button class="botao botoes" onclick="window.location.href='/Curriculo/Form'">Adicionar novo curriculo</button>
+</div>

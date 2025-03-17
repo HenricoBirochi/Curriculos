@@ -1,0 +1,36 @@
+﻿.ItensCurriculo {
+    background: radial-gradient(#30c684, #62ba78, #81c393);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Tektur;
+    border: solid;
+    border-color: #627c66;
+}
+.item:after {
+    content: "\279C";
+}
+h3 {
+    margin-left: 20px;
+    padding-top: 10px;
+    text-shadow: 4px 4px 8px #343d36;
+    display:inline;
+}
+h3:before {
+    content: "\2B1B";
+    margin-right:4px;
+}
+.voltar {
+    margin-left: 710px;
+    border-radius: 8px;
+    transition: 1s;
+}
+.voltar:before {
+    content: "\2B05";
+}
+.voltar:hover {
+    background: radial-gradient(#00ff40, #8abd97, #b3c9b9);
+    box-shadow: 0 0 20px 0px #6d756f;
+    transform: scale(1.1);
+    transition: 1s;
+}

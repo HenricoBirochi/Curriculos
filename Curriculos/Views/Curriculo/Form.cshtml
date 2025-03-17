@@ -1,0 +1,70 @@
+﻿@model CurriculoViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section EstilosExtras {
+    <link href="/css/Form.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet"><!--fonte Tektur-->
+}
+<h2>Cadastro de Curriculo</h2>
+<form asp-action="Post" method="post">
+    <label for="CurriculoId" class="control-label">Id do Curriculo</label>
+    <input type="number" Name="CurriculoId" value="@Model.CurriculoId" disabled />
+    <br />
+    <label for="Nome" class="control-label">Nome</label>
+    <input type="text" Name="Nome" value="@Model.Nome" required />
+    <br />
+    <label for="CPF" class="control-label">CPF</label>
+    <input type="text" Name="CPF" value="@Model.CPF" required />
+    <br />
+    <label for="Endereco" class="control-label">Endereço</label>
+    <input type="text" Name="Endereco" value="@Model.Endereco" required />
+    <br />
+    <label for="Telefone" class="control-label">Telefone</label>
+    <input type="text" Name="Telefone" value="@Model.Telefone" required />
+    <br />
+    <label for="Email" class="control-label">Email</label>
+    <input type="text" Name="Email" value="@Model.Email" required />
+    <br />
+    <label for="PretensaoSalarial" class="control-label">Pretensão Salarial</label>
+    <input type="text" Name="PretensaoSalarial" value="@Model.PretensaoSalarial" required />
+    <br />
+    <label for="CargoPretendido" class="control-label">Cargo Pretendido</label>
+    <input type="text" Name="CargoPretendido" value="@Model.CargoPretendido" required />
+    <br />
+    <label for="Formacao1" class="control-label">1 - Formacao</label>
+    <input type="text" Name="Formacao1" value="@Model.Formacao1" required/>
+    <br />
+    <label for="Formacao2" class="control-label">2 - Formacao</label>
+    <input type="text" Name="Formacao2" value="@Model.Formacao2" />
+    <br />
+    <label for="Formacao3" class="control-label">3 - Formacao</label>
+    <input type="text" Name="Formacao3" value="@Model.Formacao3" />
+    <br />
+    <label for="Formacao4" class="control-label">4 - Formacao</label>
+    <input type="text" Name="Formacao4" value="@Model.Formacao4" />
+    <br />
+    <label for="Formacao5" class="control-label">5 - Formacao</label>
+    <input type="text" Name="Formacao5" value="@Model.Formacao5" />
+    <br />
+    <label for="Experiencia1" class="control-label">1 - Experiencia</label>
+    <input type="text" Name="Experiencia1" value="@Model.Experiencia1" />
+    <br />
+    <label for="Experiencia2" class="control-label">2 - Experiencia</label>
+    <input type="text" Name="Experiencia2" value="@Model.Experiencia2" />
+    <br />
+    <label for="Experiencia3" class="control-label">3 - Experiencia</label>
+    <input type="text" Name="Experiencia3" value="@Model.Experiencia3" />
+    <br />
+    <label for="Idioma1" class="control-label">1 - Idioma</label>
+    <input type="text" Name="Idioma1" value="@Model.Idioma1" required />
+    <br />
+    <label for="Idioma2" class="control-label">2 - Idioma</label>
+    <input type="text" Name="Idioma2" value="@Model.Idioma2" />
+    <br />
+    <label for="Idioma3" class="control-label">3 - Idioma</label>
+    <input type="text" Name="Idioma3" value="@Model.Idioma3" />
+    <br />
+    <input type="submit" value="Salvar dados" />
+    <br />
+</form>

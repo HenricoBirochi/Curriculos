@@ -1,0 +1,40 @@
+﻿.ItensCurriculo {
+    background-color: #8abd97;
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.item:after {
+    content: "\279C";
+}
+.mainn {
+    background-color: #b3c9b9;
+    border-radius: 10px;
+    font-family: Tektur;
+}
+.mainn h2 {
+    margin-left: 20px;
+    padding-top: 10px;
+    text-shadow: 4px 4px 8px #343d36;
+}
+.mainn h2:before {
+    content: "\2B1B";
+    margin-right:4px;
+}
+.interno {
+    display: inline;
+}
+.botao {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.botoes {
+    border-radius: 8px;
+    transition: 1s;
+}
+.botoes:hover {
+    background: radial-gradient(#00ff40, #8abd97, #b3c9b9);
+    box-shadow: 0 0 20px 0px #6d756f;
+    transform: scale(1.1);
+    transition: 1s;
+}

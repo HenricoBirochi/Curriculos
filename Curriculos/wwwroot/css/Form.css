@@ -1,0 +1,70 @@
+﻿
+/* Layout do container do formulário */
+form {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #b3c9b9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Tektur;
+}
+
+/* Estilo para o título */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 5px;
+    font-family: Tektur;
+}
+
+/* Estilo para os rótulos dos campos */
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Estilo para os campos de entrada */
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #8abd97;
+}
+
+/* Estilo para os campos de entrada desabilitados */
+input[disabled] {
+    background-color: #8abd97;
+    cursor: not-allowed;
+}
+
+/* Estilo para o botão de envio */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #42c976;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+input[type="submit"]:hover {
+    transition: 2s;
+    transform: scale(1.1);
+    background-color: #4CAF50;
+}
+
+/* Adiciona margem extra nas últimas linhas do formulário */
+form br {
+    margin-bottom: 15px;
+}

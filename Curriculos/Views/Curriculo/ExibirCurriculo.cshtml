@@ -1,0 +1,29 @@
+﻿@model CurriculoViewModel
+@section EstilosExtras {
+    <link href="/css/ExibirCurriculo.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet"><!--fonte Tektur-->
+}
+<div class="ItensCurriculo">
+    <h3><span class="item">Curriculo </span> @Model.CurriculoId</h3>
+    <button class="voltar" onclick="window.location.href='/Curriculo/Index'">Voltar</button>
+    <ul>
+        <li><span class="item">Nome </span> @Model.Nome</li>
+        <li><span class="item">CPF </span> @Model.CPF</li>
+        <li><span class="item">Endereco </span> @Model.Endereco</li>
+        <li><span class="item">Telefone </span> @Model.Telefone</li>
+        <li><span class="item">Email </span> @Model.Email</li>
+        <li><span class="item">Pretensão Salarial </span> @Model.PretensaoSalarial</li>
+        <li><span class="item">Cargo Pretendido </span> @Model.CargoPretendido</li>
+        <li><span class="item">Primeira Formação </span> @Model.Formacao1</li>
+        <li><span class="item">Segunda Formação </span> @Model.Formacao2</li>
+        <li><span class="item">Terceira Formação </span> @Model.Formacao3</li>
+        <li><span class="item">Quarta Formação </span> @Model.Formacao4</li>
+        <li><span class="item">Quinta Formação </span> @Model.Formacao5</li>
+        <li><span class="item">Primeira Experiência </span> @Model.Experiencia1</li>
+        <li><span class="item">Segunda Experiência </span> @Model.Experiencia2</li>
+        <li><span class="item">Terceira Experiência </span> @Model.Experiencia3</li>
+        <li><span class="item">Primeiro Idioma </span> @Model.Idioma1</li>
+        <li><span class="item">Segundo Idioma </span> @Model.Idioma2</li>
+        <li><span class="item">Terceiro Idioma </span> @Model.Idioma3</li>
+    </ul>
+</div>
