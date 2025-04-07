@@ -1,36 +1,78 @@
-# ASP.NET MVC CRUD Application
+# 📄 ASP.NET MVC CRUD Application
 
-## Overview
+![C#](https://img.shields.io/badge/Language-C%23-239120?logo=c-sharp&logoColor=white)
+![ASP.NET MVC](https://img.shields.io/badge/ASP.NET-MVC-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-This project is an ASP.NET MVC web application that allows users to perform CRUD (Create, Read, Update, Delete) operations on a SQL Server database. The application provides an intuitive user interface to manage records efficiently.
+## 📋 Visão Geral
 
-## Features
+Este é um projeto de aplicação web ASP.NET MVC que permite realizar operações CRUD (**Create, Read, Update, Delete**) em um banco de dados **SQL Server**. A aplicação possui uma interface amigável e intuitiva para gerenciar registros de forma eficiente.
 
-- Add new records to the database
-- View all existing records
-- Update record details
-- Delete records permanently
+---
 
-## Technologies Used
+## 🚀 Funcionalidades
 
-- **ASP.NET MVC** for web development
-- **SQL Server** for database management
-- **Bootstrap** for styling
-- **C#** as the primary programming language
+- ✅ Adicionar novos registros
+- 📄 Visualizar todos os registros existentes
+- ✏️ Atualizar informações dos registros
+- 🗑️ Deletar registros permanentemente
 
-## Installation and Setup
+---
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/HenricoBirochi/Curriculos.git
-   ```
-2. Open the project in Visual Studio.
-3. Update the database connection string in the file ConexaoBD that is in folder DAO.
-4. Start the application:
-   - Press `F5` in Visual Studio or run the project using `dotnet run`.
+## 🛠️ Tecnologias Utilizadas
 
-## Usage
+- **ASP.NET MVC** – Framework para desenvolvimento web
+- **SQL Server** – Banco de dados relacional
+- **Bootstrap** – Estilização e layout responsivo
+- **C#** – Linguagem principal da aplicação
 
-1. Navigate to the application's homepage.
-2. Use the UI to add, edit, delete, or view records.
-3. All changes will be reflected in the SQL Server database.
+---
+
+## 📦 Instalação e Configuração
+
+### 1. Clone o repositório
+
+git clone https://github.com/HenricoBirochi/Curriculos.git
+
+---
+### 2. Abra o projeto no Visual Studio
+
+- Navegue até o diretório do projeto e abra o arquivo `.sln`.
+
+### 3. Configure a conexão com o banco de dados
+
+- string connectionString = "Server=SEU_SERVIDOR;Database=SEU_BANCO;Trusted_Connection=True;";
+
+### 4. Execute a aplicação
+
+- Pressione F5 no Visual Studio
+
+---
+
+## 💡 Como Usar
+
+1. Acesse a aplicação via navegador.  
+2. Utilize a interface para:
+   - Criar novos registros  
+   - Visualizar registros existentes  
+   - Editar registros  
+   - Remover registros  
+
+---
+
+## 🖼️ Capturas de Tela
+
+![image](https://github.com/user-attachments/assets/0150416f-32d3-4880-9ca6-7d63a61af8a5)
+![image](https://github.com/user-attachments/assets/0158a135-90ac-43f5-9940-d3b3bd52e3e1)
+
+---
+
+## 📁 Estrutura do Projeto
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Henrico Birochi**  
+🔗 https://github.com/HenricoBirochi
+
