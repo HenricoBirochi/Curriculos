@@ -33,7 +33,6 @@ Este é um projeto de aplicação web ASP.NET MVC que permite realizar operaçõ
 
 git clone https://github.com/HenricoBirochi/Curriculos.git
 
----
 ### 2. Abra o projeto no Visual Studio
 
 - Navegue até o diretório do projeto e abra o arquivo `.sln`.
