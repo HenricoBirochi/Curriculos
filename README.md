@@ -2,7 +2,6 @@
 
 ![C#](https://img.shields.io/badge/Language-C%23-239120?logo=c-sharp&logoColor=white)
 ![ASP.NET MVC](https://img.shields.io/badge/ASP.NET-MVC-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 ## 📋 Visão Geral
 
